@@ -5,8 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `mediumseagreen`,
     }}
   >
     <div
@@ -27,6 +26,23 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <ul 
+        style={{ 
+          margin: `1.45em`, 
+          lineHeight: `0.6em`,
+          fontFamily: `sans-serif`
+        }}>
+        <li>Food</li>
+        <li>Dancing</li>
+        <li>Live music</li>
+        <li>Workshops and classes</li>
+        <li>Art</li>
+        <li>Performing arts</li>
+        <li>Cultural events</li>
+        <li>Gaming</li>
+        <li>Outdoors</li>
+        <li>Exercise</li>
+      </ul>
     </div>
   </header>
 )
